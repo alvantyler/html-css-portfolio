@@ -204,8 +204,9 @@ img{
 
 /*====HOME ===*/
 .home_container{
-    height: calc(100vh- var(--header-height));
+    height: calc(100vh- 3rem);
     align-items: center;
+    
 }
 
 .home_data{
@@ -252,4 +253,27 @@ img{
     padding: .40rem;
     margin:  0 var(--mb-1);
     transition: .3s;
+}
+.home_social-link:hover{
+    background-color: var(--first-color-dark);
+}
+
+/*====BUTTONS====*/
+
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    padding: 1rem 2rem;
+    font-weight: var(--font-semi-bold);
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.button:hover{
+    background-color: var(--first-color-dark);
+}
+
+.button_light{
+    
 }
